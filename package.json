@@ -1,0 +1,34 @@
+{
+  "name": "modslice",
+  "version": "0.0.0",
+  "description": "slice a modarray",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/modslice.git"
+  },
+  "keywords": [
+    "modarray",
+    "slice",
+    "array",
+    "mod",
+    "modulo",
+    "modulus"
+  ],
+  "author": "ahdinosaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/modslice/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/modslice#readme",
+  "devDependencies": {
+    "tape": "^4.0.1"
+  },
+  "dependencies": {
+    "modarray": "^1.0.2",
+    "object-assign": "^3.0.0"
+  }
+}
