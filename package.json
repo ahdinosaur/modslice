@@ -1,10 +1,15 @@
 {
   "name": "modslice",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "slice a modarray",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   },
   "repository": {
     "type": "git",
@@ -28,6 +33,7 @@
     "tape": "^4.0.1"
   },
   "dependencies": {
+    "babelify": "^6.1.3",
     "modarray": "^1.0.2",
     "object-assign": "^3.0.0"
   }
